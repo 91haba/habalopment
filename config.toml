@@ -6,7 +6,7 @@ theme = "crab"
 [params]
 description = "develophgraphy"
 # logoimage = "images/logo.jpg"
-# copyright = "foo"
+copyright = "91haba"
 
 # mathjax = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
 ## Uncomment if you want mathjax enabled. The above cdn source is taken from https://gohugo.io/content-management/formats/#mathjax-with-hugo   
