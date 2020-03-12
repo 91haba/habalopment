@@ -4,10 +4,110 @@ title = "Habalopment"
 theme = "crab"
 
 [params]
-description = "develophgraphy"
+description = " develophgraphy"
 copyright = "91haba"
 
 [[menu.main]]
 weight = 1
 name = "Home"
 url = "/"
+
+[[menu.main]]
+weight = 2
+name = "iOS"
+url = "/iOS/"
+identifier = "iOS"
+    [[menu.main]]
+    parent = "iOS"
+    weight = 1
+    name = "Swift UI"
+    url = "/iOS/swift-ui/"
+    [[menu.main]]
+    parent = "iOS"
+    weight = 2
+    name = "Combine"
+    url = "/iOS/combine/"
+
+[[menu.main]]
+weight = 3
+name = "Web"
+url = "/web/"
+identifier = "web"
+  [[menu.main]]
+  parent = "web"
+  weight = 1
+  name = "Html/css"
+  url = "/web/html-css/"
+  [[menu.main]]
+  parent = "web"
+  weight = 2
+  name = "React"
+  url = "/web/react/"
+  [[menu.main]]
+  parent = "web"
+  weight = 3
+  name = "Vue"
+  url = "/web/vue/"
+  [[menu.main]]
+  parent = "web"
+  weight = 4
+  name = "Node"
+  url = "/web/node/"
+
+[[menu.main]]
+weight = 4
+name = "Spring"
+url = "/spring/"
+identifier = "spring"
+  [[menu.main]]
+  parent = "spring"
+  weight = 1
+  name = "Spring boot"
+  url = "/web/spring-boot/"
+
+[[menu.main]]
+weight = 5
+name = "Language"
+url = "/language/"
+identifier = "language"
+  [[menu.main]]
+  parent = "language"
+  weight = 1
+  name = "Swift"
+  url = "/language/swift/"
+  [[menu.main]]
+  parent = "language"
+  weight = 2
+  name = "Objective-c"
+  url = "/language/objective-c/"
+  [[menu.main]]
+  parent = "language"
+  weight = 3
+  name = "Javascript"
+  url = "/language/javascript/"
+  [[menu.main]]
+  parent = "language"
+  weight = 4
+  name = "C++"
+  url = "/language/c++/"
+  [[menu.main]]
+  parent = "language"
+  weight = 5
+  name = "Java"
+  url = "/language/java/"
+  [[menu.main]]
+  parent = "language"
+  weight = 6
+  name = "Kotlin"
+  url = "/language/kotlin/"
+  [[menu.main]]
+  parent = "language"
+  weight = 7
+  name = "Python"
+  url = "/language/python/"
+
+
+[[menu.main]]
+weight = 6
+name = "Contact"
+url = "/contact/"
