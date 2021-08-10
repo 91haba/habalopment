@@ -49,11 +49,6 @@ title = "GitHub"
 url = "https://github.com/91haba"
 
 [[socialIcons]]
-icon = "fab fa-instagram"
-title = "instagram"
-url = "https://www.instagram.com/imhaba"
-
-[[socialIcons]]
 icon = "fas fa-envelope"
 title = "e-mail"
-url = "91haba@gmail.com"
+url = "mailto:91haba@gmail.com"
